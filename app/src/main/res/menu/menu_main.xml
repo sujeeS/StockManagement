@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <!--
+        Menu item's that displayed on Toolbar.
+    -->
+
+    <item
+        android:id="@+id/action_import"
+        android:icon="@drawable/ic_action_import"
+        android:orderInCategory="200"
+        android:title="Import Item"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_category"
+        android:icon="@drawable/ic_action_add"
+        android:orderInCategory="300"
+        android:title="Add Category"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_bluetooth"
+        android:orderInCategory="300"
+        android:title="Bluetooth"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_mail"
+        android:orderInCategory="300"
+        android:title="Mail"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_usb"
+        android:orderInCategory="100"
+        android:title="USB"
+        app:showAsAction="never" />
+</menu>
